@@ -1,0 +1,16 @@
+{
+  "name": "mein-tailwind-projekt",
+  "version": "1.0.0",
+  "description": "Ein Projekt mit Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build styles.css -o output.css",
+    "watch:css": "tailwindcss -i styles.css -o output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
