@@ -2,22 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
     <title>Tailwind CSS Beispiel</title>
   </head>
-  <body>
-    <div class="bg-blue-500 text-white p-4">
-      <h1 class="text-2xl font-bold">Hallo, Tailwind CSS!</h1>
+  <body class="bg-black-400 px-20 py-10">
+    <div class="bg-blue-500 text-white text-2xl p-4">
+      <h1 class="text-4xl text-black font-bold">Hallo, Tailwind CSS!</h1>
       <p class="mt-2">
         Dies ist ein einfaches Beispiel für die Verwendung von Tailwind CSS.
       </p>
       <a
-        class="underline"
-        href="http:/google.com"
-        class="mt-4 text-blue-600 hover:underline"
-        >google</a
+        class="mt-4 underline text-blue-800 text-4xl font-bold"
+        target="_blank"
+        href="http://google.com"
+        >google.com</a
       >
+      <p class="mt-4 text-yellow-400">Das ist ein Absatz.</p>
+      <p class="mt-4 text-blue-400">Das ist ein Absatz.</p>
+      <p class="mt-4 text-green-400">Das ist ein Absatz.</p>
+      <p class="mt-4 text-black font-extrabold">Das ist ein Absatz.</p>
+      <div class="mt-4 mr-4 bg-red-500 w-20 h-20">Test</div>
     </div>
   </body>
 </html>
