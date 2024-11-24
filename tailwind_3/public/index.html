@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>tailwind_3</title>
+  </head>
+  <body class="dark:bg-darkgray bg-slate-300 dark:text-yellow-200">
+    <header class="sticky top-0 z-10 bg-teal-400 text-black">
+      <nav class="container mx-auto flex justify-between p-4">
+        <a href="#" class="text-white">Home</a>
+        <a href="#" class="text-white">About</a>
+        <a href="#" class="text-white">Contact</a>
+      </nav>
+      <p class="text-center">... tailwinded</p>
+      <section class="mx-auto flex max-w-4xl items-center justify-between bg-teal-200 p-4">
+        <h1 class="text-3xl font-medium">
+          <a href="#hero">Acme Rockets 🚀</a>
+        </h1>
+        <div>
+          <button id="mobile-open-button" class="text-3xl focus:outline-none sm:hidden">&#9776;</button>
+          <nav class="hidden space-x-8 text-xl sm:block" aria-label="main">
+            <a href="#rockets" class="hover:opacity-90">Rock It</a>
+            <a href="#launch" class="hover:opacity-90">Launch It</a>
+            <a href="#contact" class="hover:opacity-90">First Contact</a>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main class="mx-auto max-w-4xl">
+      <section class="radial-blue grid min-h-fit place-content-center p-5">
+        <div class="grid h-52 w-52 place-content-center rounded-full bg-emerald-500">
+          <div class="flex h-40 w-40 items-center justify-center rounded-full bg-white">
+            <div class="flex h-12 w-12 items-center justify-center rounded-full bg-red-600">O</div>
+          </div>
+        </div>
+      </section>
+      <section id="hero" class="flec-col-reverse mb-12 flex items-center justify-center gap-8 p-6 sm:flex-row">
+        <article class="sm:w-1/2">
+          <h2 class="max-w-md text-center text-4xl font-bold text-slate-900 sm:text-left sm:text-5xl dark:text-white">
+            We boldy go
+            <br />
+            <span class="text-indigo-700 dark:text-indigo-300">where no Rocket</span>
+            <br />
+            has gone before ...
+          </h2>
+          <p class="mt-4 max-w-md text-center text-2xl text-slate-700 sm:text-left dark:text-slate-400">
+            We're building rockets for the future of space exploration. Join us on our mission to explore the universe and beyond.
+          </p>
+          <p class="mt-4 max-w-md text-center text-2xl text-slate-700 sm:text-left dark:text-slate-400">
+            Check out our latest launches
+            <a href="#launch" class="text-purple-600 hover:font-bold hover:uppercase dark:text-purple-300">here!</a>
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
