@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .radial-blue {
-  background: radial-gradient(lightyellow, darkblue);
+  background: radial-gradient(rgb(255, 1, 1), darkblue);
+}
+
+.scroll-mt-100 {
+  scroll-margin-top: 26rem /* 384px */;
 }
